@@ -7,3 +7,8 @@ resnet20-WHTConvx3 is the 3-path HT-Resnet-20, but we implement it using the WHT
 resnet20-WHTConvx1 is the 1-path HT-Resnet-20, but we implement it using the WHT.  
 
 resnet20-WHTConvx5 is the 1-path HT-Resnet-20, but we implement it using the WHT.  
+
+Please run "train.py" for training and "test.py" for testing:
+    
+    python train.py
+    python test.py
