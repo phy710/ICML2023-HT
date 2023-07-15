@@ -20,5 +20,5 @@ class SoftThresholding(torch.nn.Module):
         self.T = torch.nn.Parameter(torch.rand(self.num_features)/10)
               
     def forward(self, x):
-        return torch.mul(torch.sign(x), torch.nn.functional.relu(torch.abs(x)-torch.nn.functional.relu(self.T)))
-    
+        #return torch.mul(torch.sign(x), torch.nn.functional.relu(torch.abs(x)-torch.nn.functional.relu(self.T)))
+        return torch.copysign(torch.nn.functional.relu(torch.abs(x)-torch.nn.functional.relu(self.T)), x) 
