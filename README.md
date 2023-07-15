@@ -11,8 +11,8 @@ You need to import the function "WHTConv2D":
 For example, if the input tensor is 3x16x32x32 and the output is 3x16x32x32, then
 Single-path HT-perceptron layer: 
 
-    WHTConv2D(32, 32, 16, 16, 1, residual=True),
+    WHTConv2D(32, 32, 16, 16, 1, residual=True)
 3-path HT-perceptron layer: 
 
-    WHTConv2D(32, 32, 16, 16, 3, residual=False).
+    WHTConv2D(32, 32, 16, 16, 3, residual=False)
 The parameter "pod" in the function "WHTConv2D" stands for the number of paths.
