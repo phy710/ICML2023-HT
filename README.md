@@ -16,3 +16,5 @@ single-path HT-perceptron layer:
 
     WHTConv2D(32, 32, 16, 16, 3, residual=False)
 The parameter "pod" in the function "WHTConv2D" stands for the number of paths.
+
+More examples can be founded in the folder CIFAR10 and ImageNet1K.
