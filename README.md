@@ -8,8 +8,8 @@ The folder "layers" contains the implementation of the proposed Hadamard Transfo
 You need to import the function "WHTConv2D":
 
     from layers.WHT import WHTConv2D
-For example, if the input tensor is 3x16x32x32 and the output is 3x16x32x32, then
-Single-path HT-perceptron layer: 
+For example, if the input tensor is 3x16x32x32 and the output is 3x16x32x32, 
+single-path HT-perceptron layer: 
 
     WHTConv2D(32, 32, 16, 16, 1, residual=True)
 3-path HT-perceptron layer: 
