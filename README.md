@@ -19,3 +19,14 @@ single-path HT-perceptron layer:
 The parameter "pod" in the function "WHTConv2D" stands for the number of paths.
 
 More examples can be found in the folder CIFAR10 and ImageNet1K.
+
+To cite this work:
+
+    @inproceedings{pan2023hybrid,
+      title={A hybrid quantum-classical approach based on the hadamard transform for the convolutional layer},
+      author={Pan, Hongyi and Zhu, Xin and Atici, Salih Furkan and Cetin, Ahmet},
+      booktitle={International Conference on Machine Learning},
+      pages={26891--26903},
+      year={2023},
+      organization={PMLR}
+    }
